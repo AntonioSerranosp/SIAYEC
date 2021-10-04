@@ -1,0 +1,44 @@
+.buttons {
+  margin: 4px;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.result-container {
+  display: flex;
+  justify-content: center;
+}
+
+.residuo-red {
+  background-color: red;
+  color: black;
+  height: 75px;
+  width: auto;
+  min-width: 45px;
+  text-align: center;
+  font-size: 50px;
+  overflow: auto;
+}
+.residuo-green {
+  background-color: green;
+  color: black;
+  height: 45px;
+  width: auto;
+  min-width: 45px;
+
+  text-align: center;
+}
+.residuo-blue {
+  background-color: blue;
+  color: black;
+  height: 45px;
+  width: auto;
+  min-width: 45px;
+
+  text-align: center;
+}
