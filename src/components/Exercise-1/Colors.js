@@ -9,7 +9,6 @@ export const Colors = () => {
   const numbersRow = 101;
   const handleChangeInput = ({ target }) => {
     if (isNaN(target.value)) {
-      //maybe usar un span
       setDisable(true);
     } else {
       setInitialValue(target.value);

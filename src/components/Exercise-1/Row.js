@@ -3,9 +3,6 @@ import React from "react";
 export const Row = ({ index, residuo }) => {
   let classNameColor = "";
   switch (residuo) {
-    case residuo:
-      classNameColor = "white";
-      break;
     case 1:
       classNameColor = "red";
 
